@@ -12,6 +12,17 @@
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
 
+		<style>
+			.reveal h1, 
+			.reveal h2, 
+			.reveal h3, 
+			.reveal small,
+			.reveal p,
+			.reveal blockquote {
+				text-shadow: 3px 3px 0px #000000;
+			}
+		</style>
+
 		<!-- Printing and PDF exports -->
 		<script>
 			var link = document.createElement( 'link' );
@@ -38,7 +49,7 @@
 
 				<section data-background="images/art-history-collage.jpg">
 					<h2>WTH is Art anyway?</h2>
-					<p>Del latín ars, y este del griego téchnē [τέχνη].</p>
+					<p class="fragment">Del latín ars, y este del griego téchnē [τέχνη].</p>
 					<blockquote class="fragment">The principles or methods employed in making something or attaining an objective.</blockquote>
 					<aside class="notes">
 						Ars: Skill
@@ -49,7 +60,7 @@
 
 				<section data-background="images/art-history-collage.jpg">
 					<h2>WTH is Art anyway?</h2>
-					<blockquote>
+					<blockquote class="fragment">
 						Any <span class="fragment highlight-red">human</span> activity or product made with an aesthetic and/or communicative purpose
 						through which ideas, emotions, concepts -or in general: <span class="fragment highlight-red">worldviews</span>- are expressed
 						through the use of <span class="fragment highlight-red">diverse resources and means</span>
@@ -64,15 +75,15 @@
 				</section>
 
 
-				<section data-background="images/code-background.jpg">
+				<section data-background="images/mappinggabriellericci.jpg">
 					<h2>Code as the Medium</h2>
 
-					<blockquote>
+					<blockquote class="fragment">
 						Code is used to create the Artwork but the code itself is not the artwork
 					</blockquote>
 				</section>
 
-				<section data-background="images/ananias.jpg">
+				<section data-background="images/mappinggabriellericci.jpg">
 					<h2>Video Games</h2>
 					<img src="images/ananias-playing.gif" width="80%" height="auto !important">	
 					<p><small><a href="http://ananiasgame.com/">Ananias Game by Slash</a></small></p>
@@ -81,7 +92,7 @@
 					</aside>
 				</section>
 
-				<section data-background="images/dino.jpg">
+				<section data-background="images/mappinggabriellericci.jpg">
 					<h2>Computer Animation</h2>
 					<img src="images/mighty-octopus-Ana-Tudor.gif">
 					<p><small><a href="https://codepen.io/thebabydino/full/oGPGxw/">Mighty Octopus by Ana Tudor</a></small></p>
@@ -90,7 +101,7 @@
 					</aside>
 				</section>
 
-				<section data-background="images/Baphometgiger.jpg">
+				<section data-background="images/mappinggabriellericci.jpg">
 					<h2>Computer Animation</h2>
 					<img src="images/pentagramflip.gif" width="60%" height="auto !important">
 					<aside class="notes">
@@ -108,106 +119,153 @@
 					</aside>
 				</section>
 
-				<section data-background="images/wires.jpg">
-					<h2>Experimental/Conceptual</h2>
+				<section data-background="images/mappinggabriellericci.jpg">
+					<h2>Experimental</h2>
 					<iframe width="560" height="315" src="https://www.youtube.com/embed/kkRsTEu4O3s?rel=0" frameborder="0" allowfullscreen></iframe>
 					<p><small><a href="https://devart.withgoogle.com/#/catalogued/6280486116655104?t=catalogued">The Rythm of City</a></small></p>
 					<aside class="notes">
 						Given a location, a crawler searches for publicly available media content with geotags.
-						The ammount of geotags in a given location and time period is then translated into oscillation and fed
+						The ammount of geotags in a given location and time period is then translated into oscillations and fed
 						to the metronome
 					</aside>
 				</section>
 
-				<section data-background="images/code-background.jpg">
+				<section data-background="images/mappinggabriellericci.jpg">
 					<h2>Code as the Artwork</h2>
-					<blockquote>Code is used to create the Artwork and the code itself is part of</blockquote>
+					<blockquote  class="fragment">
+						Code is used to create the Artwork and the code itself is a part of
+					</blockquote>
 				</section>
 
-				<section>
-					var t;
-					http://vart.institute/
+				<section data-background="images/mappinggabriellericci.jpg">
+					<h2>The Algorithm Auction</h2>
+					<div class="fragment">
+						<blockquote>
+							The world’s first auction celebrating the art of code was held on March 27, 2015
+							at the Cooper Hewitt, Smithsonian Design Museum. 
+							It featured several prints of historically important algorithms as well as some early designs of important chipsets.
+						</blockquote>
+						<p ><small><a href="https://www.artsy.net/feature/the-algorithm-auction">Ruse Laboratories</a></small></p>
+					</div>
 				</section>
 
-				<section>
-					The Algorithm Auction by Ruse Laboratories
+				<section data-background="images/mappinggabriellericci.jpg">
+					<h2>Turtle Geometry</h2>
+					<img src="images/turtlegeometryhalabelson.jpg" width="60%" height="auto !important">
+					<p><small><a href="https://en.wikipedia.org/wiki/Hal_Abelson">Hal Albeson</a></small></p>
+					<aside class="notes">
+						MIT
+						Creative Commons
+						Free Software Foundation
+						Center for Democracy and Technology
+					</aside>
 				</section>
 
-				<section>
-					Hypothetical Beats
-					Anthony Ferraro
-					https://www.artsy.net/artwork/anthony-ferraro-hypothetical-beats?auction_id=the-algorithm-auction
+				<section data-background="images/mappinggabriellericci.jpg">
+					<h2>Hypothetical Beats</h2>
+					<img src="images/hypotheticalbeats.jpg" width="70%" height="auto !important">
+					<p><small><a href="https://www.artsy.net/artwork/anthony-ferraro-hypothetical-beats?auction_id=the-algorithm-auction">Anthony Ferraro</a></small>
+					<aside class="notes">
+						An algorithm that converts other algorithms into music.
+						does not directly translate bytes into notes. 
+						Rather it recognizes patterns in other codes and interprets these as rhythmic sound. 
+					</aside>
 				</section>
 
-				<section>
-					KANO
-					http://art.kano.me/challenges/pixelhack/
+				<section data-background="images/mappinggabriellericci.jpg">
+					<h3>var t;</h3>
+					<blockquote class="fragment">
+						Learning about art, using JavaScript.
+						http://vart.institute/
+					</blockquote>
 				</section>
 
-				<section data-background="">
-					Add Background Image of Machine Made Art
+				<section data-background="images/mappinggabriellericci.jpg">
+					<iframe class="stretch" src="https://vart-magritte.glitch.me/"></iframe>
 				</section>
 
-				<section data-background="">
-					Add Background Image of Machine Made Art
-					Senseless Drawing Robot
-				</section>
-
-				<section>
+				<section data-background="images/mappinggabriellericci.jpg">
 					<img src="images/ArtByMachine.jpg">
 				</section>
 
-				<section>
+				<section data-background="images/mappinggabriellericci.jpg">
 					<img src="images/putin.gif">
 				</section>
 
-				<section>
+				<section data-background="images/mappinggabriellericci.jpg">
 					<h2>Machine-Made Art</h2>
-					<h3>The Artwork is created by an Algorithm, Robot or AI</h3>
-					<h3>The process isn't subject to strict guidance</h3>
-					<h3>The aesthetic desitions are made by the Machine.</h3>
+					<blockquote  class="fragment">
+						The Artwork is created by a Robot or AI;
+						the process is not subject to strict guidance and the aesthethic decisions
+						are left to the Machine.
+					</blockquote>
 				</section>
 
-				<section>
-					AARON by Harold Cohen
-					https://futurism.com/images/see-gallery-art-entirely-machine-made/
+				<section data-background="images/mappinggabriellericci.jpg">
+					<h2>AARON</h2>
+					<img width="45%" height="auto !important" src="images/AARON2.png">
+					<p><small><a href="http://www.aaronshome.com/aaron/aaron/index.html">Harold Cohen</a></small></p>
+					<aside class="notes">
+						Autonomous
+						Trained AI.
+						Creates original paintings.
+					</aside>
 				</section>
 
-				<section>
-					Interactive Robot Painting Machine
+				<section data-background="images/mappinggabriellericci.jpg">
+					<h3>Interactive Robot Painting Machine</h3>
+					<!-- <img src="images/irbm.png"> -->
+					<img width="45%" height="auto !important" src="images/irpm2.png">
+					<p><small><a href="https://bengrosser.com/">Benjamin Grosser</a></small></p>
+					<aside class="notes">
+						Makes decisions based on sound.
+						Can use its own sound as source.
+					</aside>
 				</section>
 
-				<section>
-					The Painting Fool
+				<section data-background="images/mappinggabriellericci.jpg">
+					<h2>The Painting Fool</h2>
+					<img src="images/paintingfool1.png">
+					<!-- <img src="images/paintingfool2.png"> -->
+					<p><small><a href="http://ccg.doc.gold.ac.uk/simoncolton/">Simon Colton</a></small></p>
+					<aside class="notes">
+						Given a mood, the software will find an associated adjective
+						and then paints a portrait that it "knows" is representative of said adjective.
+					</aside>
 				</section>
 
-				<section>
-					Shelley.ai by
-					Pinar Yanardag
-					Manuel Cebrian
-					Iyad Rahwan 
+				<section data-background="images/mappinggabriellericci.jpg">
+					<h2>Shelley.ai</h2>
+					<blockquote>
+						I remember his face in a look of horror, and it was agony and malice. 
+						I was trapped. I was trapped in this hospital bed.
+					</blockquote>
+					<p><small><a href="http://shelley.ai/#team">MIT Media Lab</a></small></p>
+					<aside class="notes">
+						Neural Network trained in reddit /nosleep.
+						Pulls fragments to create her own short story
+						or, Continues the  story on twitter
+					</aside>
 				</section>
 
-				<section>
-					<h2>The Open Question</h2>
-					Sapience
+				<section data-background="images/mappinggabriellericci.jpg">
+					<h2>It does raises a few questions, doesn't it?</h2>
+
+					<aside class="notes">
+						Sapience: knowledge
+						Sentience: to feel/to perceive
+
+						Worldviews? -> Originate from perceptions
+						Does Sinergy ammounts to Sentience?
+						
+						In relation to humans:
+						Inspiration vs Seed
+						Senses vs Sensors?
+						Culture vs Params/Boundaries
+					</aside>
 				</section>
 
-				<section>
-					Sentience
-				</section>
-
-				<section>
-					Does AI has a worldview?
-					Does Sinergy ammounts to Sentience?
-
-					The Other Way Around
-					Senses vs Sensors?
-					Culture vs Params/Boundaries
-					
-				</section>
-
-				<section>
+				<!-- <section>
 					<h2>Due Credit</h2>
 					<ul>
 						<li>Raven Bird: <a href="http://www.publicdomainpictures.net/view-image.php?image=139677&picture=raven-bird">source</a></li>
@@ -221,8 +279,14 @@
 						<li>CFP Bauer Mapping by <a href="http://www.gabrielericci.com/en/works/cfp-bauer-video-mapping-3d/">Gabrielle Ricci</a></li>
 						<li>Lights On Mapping by <a href="https://devart.withgoogle.com/#/catalogued/4873111233101824?t=catalogued">Zach Lieberman</a></li>
 						<li>The Rhythm of City by <a href="https://devart.withgoogle.com/#/catalogued/6280486116655104?t=catalogued">Varvara Guljajeva & Mar Canet</a></li>
+						<li>Wires Wallpaper: <a href="http://www.valortop.com/img/uploads/2015/08/cool-tech-pic.jpg">source</a></li>
+						<li>Art Auction at Sotheby's by <a href="http://news.wolframkastl.com/">Wolfram Kastl / AP</a></li>
+						<li>Turtle Geometry by <a href="https://en.wikipedia.org/wiki/Hal_Abelson">Hal Albeson</a></li>
+						<li>Hypothetical Beats by <a href="https://www.artsy.net/artwork/anthony-ferraro-hypothetical-beats?auction_id=the-algorithm-auction">Anthony Ferraro</a></li>
+						<li>Pixel Babe #5 by <a href="http://jennmoney.biz/art/">Jennmoneydollars (Jenn Schiffer)</a></li>
+						<li>The Agony of JavaScripting Magritte by <a href="http://vart.institute">vart;</a></li>
 					</ul>
-				</section>
+				</section> -->
 			</div>
 		</div>
 
