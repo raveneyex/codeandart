@@ -5,7 +5,6 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 		<title>Code & Art</title>
-
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/theme/night.css">
 
@@ -295,8 +294,8 @@
 			// - https://github.com/hakimel/reveal.js#dependencies
 			Reveal.initialize({
 				multiplex: {
-					secret: '1510027427897928605', // Obtained from the socket.io server. Gives this (the master) control of the presentation
-					id: '822a9765ba5c4751', // Obtained from socket.io server
+					secret: '15102472603272771746', // Obtained from the socket.io server. Gives this (the master) control of the presentation
+					id: '7aa10210ba2621ba', // Obtained from socket.io server
 					url: 'https://reveal-js-multiplex-ccjbegmaii.now.sh' // Location of socket.io server
 				},
 				dependencies: [
@@ -310,6 +309,7 @@
 					{ src: 'plugin/notes-server/client.js', async: true }
 				]
 			});
+			Reveal.configure({ pdfMaxPagesPerSlide: 1 });
 		</script>
 	</body>
 </html>
